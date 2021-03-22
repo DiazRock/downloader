@@ -80,7 +80,7 @@ def main():
     final_upload(upload_url, 
                  statefulhash= submit_data['statefulhash'],
                  cookies= new_cookies)
-    run(host='localhost', port=9000)
+    run(host='https://application-work.herokuapp.com', port=9000)
     
 if __name__ == '__main__':
     main()
